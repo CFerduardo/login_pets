@@ -1,11 +1,4 @@
-<?php
-    if ($_POST){
-        if ($_POST["nombre"]=="pancho" && [$_POST["especie"]=="gato"]){
-            echo "Logueado";
-        }
-    }
 
-?>
 
 <!doctype html>
 <html lang="en">
