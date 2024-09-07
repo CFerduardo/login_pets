@@ -13,6 +13,6 @@
 <body>
     <div class="container">                 <!--bs5-grid-container = contenedor grid con boostrap--> 
         <a href="index.php">Inicio</a> |
-        <a href="album.php">Album</a> |
+        <a href="historial_clinico.php">Historial Clínico</a> |
         <a href="cerrar.php">Cerrar</a>
         <br/>
