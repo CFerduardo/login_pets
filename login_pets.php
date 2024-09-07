@@ -36,6 +36,7 @@
 
             <div class="col-lg-6 mb-5 mb-lg-0">
               <div class="card">
+              <div class="card-header">Datos de la mascota</div> 
               <div class="card-body py-5 px-md-5">
 
                 <form><!-- 1 diseño de cuadrícula de columnas con entradas de texto para el nombre y apellido -->
@@ -120,6 +121,7 @@
                   </div>
                 </form>
               </div>
+              <div class="card-footer text-muted">Footer</div>
               </div>
             </div>
             </div>
