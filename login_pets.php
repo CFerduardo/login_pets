@@ -1,4 +1,7 @@
 <?php
+  require "cabecera.php";
+
+
     if ($_POST){
         if ($_POST["nombre"]=="pancho" && [$_POST["especie"]=="gato"] && [$_POST["sexo"]=="masculino"] && [$_POST["raza"]=="gato"] && [$_POST["edad"]=="5"] && [$_POST["peso"]=="10"] [$_POST["color"]=="negro"]){
             header("location:index.php");
@@ -20,6 +23,8 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
   </head>
   <body>
+    <br>
+    <br>
       <!--Sección: Bloque de Diseño-->
       <section class="">
           <!-- Jumbotron -->
@@ -101,11 +106,10 @@
                   <!-- Register buttons -->
                   <div class="text-center">
                     <p>Síguenos o Comunícate con nosotros en:</p>
-                    <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
-                        <i class="ins in-instagram -i">
-                          <a href="https://www.instagram.com/mascoti.ve?igsh=MWh5bm84YWhxOHVhZA==">#</a>
-                        </i>
-                      </button>
+
+                    <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-instagram"></i><a href="https://www.instagram.com/mascoti.ve?igsh=MWh5bm84YWhxOHVhZA=="></a>
+                    </button>
 
                       <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
                         <i class="fab fa-google">b</i>
