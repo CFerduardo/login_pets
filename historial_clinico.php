@@ -73,8 +73,9 @@
                         Historial: <textarea class="form-control" name="historial" id="" rows="3" required></textarea>
                         <br/>
                         <input class="btn btn-success" type="submit" value="Cargar Ficha">
-                    </form>    
-                    </div>
+                    </form>
+                </div>
+                <div class="card-footer text-muted">Footer</div>    
                 </div>
             </div>
             <div class="col-md-7"> 
