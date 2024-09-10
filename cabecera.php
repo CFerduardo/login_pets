@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="./historial_clinico.php">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./login_pets.php">Registrarse</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./login_pets.php">Productos</a></li>
                     </ul>
                 </div>
             </div>
