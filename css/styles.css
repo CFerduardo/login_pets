@@ -10828,7 +10828,7 @@ textarea.form-control-lg {
 html {
   scroll-padding-top: 67px;
 }
-
+/*
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;
@@ -10836,7 +10836,7 @@ html {
   font-weight: 700;
   letter-spacing: 0.1rem;
 }
-
+*/
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
