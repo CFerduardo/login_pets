@@ -1,9 +1,3 @@
-<?php 
-    include "cabecera.php"
-
-?>
-
-    Estoy en productos
-
+<?php include "cabecera.php"?>
 
 <?php include "pie.php"?>
