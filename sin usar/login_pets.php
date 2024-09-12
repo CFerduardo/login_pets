@@ -132,6 +132,5 @@
             </div>
           </div>
       </section>
-  <!-- Section: Design Block -->
-  </body>
-</html>
+
+      <?php include "pie.php"?>
