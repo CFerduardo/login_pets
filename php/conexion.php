@@ -24,7 +24,5 @@
             $sentencia->execute();
             return $sentencia->fetchAll();      //fetchAll() = Retornar todos los registros que puedas consulgar con la sentencia sql
         }
-
-
     }
 ?>
