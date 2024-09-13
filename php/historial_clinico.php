@@ -16,7 +16,7 @@
         $imagen = $fecha->getTimestamp()."_".$_FILES['imagen']['name'];
 
         $imagen_temporal = $_FILES['imagen']['tmp_name'];
-        move_uploaded_file($imagen_temporal,"img/".$imagen);
+        move_uploaded_file($imagen_temporal,"../img/".$imagen);
         //////////////////////////////////////////
 
         $obj_conexion = new Conexion();
@@ -31,8 +31,8 @@
         $obj_conexion = new Conexion();
 
         //Borrar la img
-        $imagen = $obj_conexion->consultar("SELECT imagen FROM `historial` WHERE id= $id"); 
-        unlink("img/".$imagen[0]['imagen']);
+        $imagen = $obj_conexion->consultar("SELECT imagen FROM `historial` WHERE id = $id"); 
+        unlink("../img/".$imagen[0]['imagen']);
 
         //Borrado en la base de datos 
         $sql = "DELETE FROM historial WHERE `historial`.`id` = $id";
@@ -42,8 +42,6 @@
 
     $obj_conexion = new Conexion();                                                 //Instanciado
     $resultado = $obj_conexion->consultar("SELECT * FROM `historial`");             //Ejecuta el metodo resultado, y returna resultado
-
-
 ?>
 
     <br/>
@@ -101,7 +99,7 @@
                                 <td><?=$consulta['propietario']?></td>
                                 <td><?=$consulta['mascota']?></td>
                                 <td>
-                                    <img width="100" src="img/<?=$consulta['imagen']?>" alt="">    
+                                    <img width="100" src="../img/<?=$consulta['imagen']?>" alt="">    
                                 </td>
                                 <td><?=$consulta['historial']?></td>
                                 <td><a class="btn btn-danger" href="?borrar=<?=$consulta['id']?>">Eliminar</a></td>
@@ -117,3 +115,5 @@
 
 
 <?php include "pie.php"?>
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequatur quis, ab rerum porro veniam numquam vel excepturi saepe. Exercitationem pariatur nulla aperiam quos omnis mollitia voluptatem quaerat beatae. Quam!
