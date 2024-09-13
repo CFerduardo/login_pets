@@ -115,5 +115,3 @@
 
 
 <?php include "pie.php"?>
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequatur quis, ab rerum porro veniam numquam vel excepturi saepe. Exercitationem pariatur nulla aperiam quos omnis mollitia voluptatem quaerat beatae. Quam!
