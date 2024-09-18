@@ -56,8 +56,8 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">¡Te saludamos!</h2>
-                            <p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. A laborum eius, unde at magnam voluptatem in totam quidem sint molestiae soluta, porro voluptates placeat temporibus dolor aliquam pariatur facilis iusto!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ullam nam accusantium odit aperiam debitis et eos numquam perferendis, distinctio facere quod esse? Laborum neque sequi qui alias! Quo, voluptatem.ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                            <h2 class="display-4">¡Bienvenidos!</h2>
+                            <p> En MascotiAmigos Enterprise, tu mejor amigo peludo siempre encontrará los mejores cuidados. Somos tu hogar lejos del hogar para tus mascotas❤️. Contamos con una amplia variedad de productos para el cuidado de tu mascota: alimentos de alta calidad, juguetes divertidos, accesorios modernos y mucho más. Además, nuestro equipo de veterinarios y asistentes está altamente capacitado para brindarle a tu mascota la atención que se merece. 🩺 ¡Visítanos y descubre por qué somos la tienda de mascotas favorita de la ciudad! ¿Necesitas algo en especial? ¡Con gusto te ayudaremos a encontrar lo que buscas!<br> <br> #MascotiAmigos #TuMascotaNuestraPasión #TiendaDeMascotas</p>
                         </div>
                     </div>
                 </div>
